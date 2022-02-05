@@ -25,7 +25,6 @@ class ListMoviesInteractor: ListMoviesBusinessLogic, ListMoviesDataStore {
         listMoviesWorker.fetchMoviesPage(page: request.page) { (moviesPage) in
             if let resultMovies = moviesPage?.results {
                 self.movies.append(contentsOf: resultMovies)
-//                self.movies
                 let response = ListMovies.FetchMovies.Response(movies: moviesPage?.results ?? [])
                 self.presenter?.presentMovies(response: response)
             }

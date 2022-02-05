@@ -51,7 +51,6 @@ class ListMovieViewControllerTests: XCTestCase {
         func fetchMovies(request: ListMovies.FetchMovies.Request) {
             calledFetchMovie = true
         }
-
     }
     
     class TableViewSpy: UITableView

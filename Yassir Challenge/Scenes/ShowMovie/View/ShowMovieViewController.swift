@@ -57,7 +57,6 @@ class ShowMovieViewController: UIViewController, ShowMovieDisplayLogic {
         imageView.translatesAutoresizingMaskIntoConstraints = false
         imageView.layer.masksToBounds = true
         imageView.layer.cornerRadius = 10
-//        imageView.contentMode = .scaleAspectFit
         return imageView
     }()
     
