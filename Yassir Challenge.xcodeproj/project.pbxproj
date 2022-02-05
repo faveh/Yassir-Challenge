@@ -41,28 +41,6 @@
 		CE0FBC0327ADDADD003BE3C6 /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0FBC0227ADDADD003BE3C6 /* UIColor+Ext.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		CE0FBC0C27ADFC7C003BE3C6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CE0FBB9727AC32F3003BE3C6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CE0FBB9E27AC32F3003BE3C6;
-			remoteInfo = "Yassir Challenge";
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		CE32AA6E27AE5E1D00E3BB16 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
 		22A6269D95D3800698BA99DA /* Pods_Yassir_Challenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Yassir_Challenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C16D9F032D56FF59A63ED45E /* Pods-Yassir Challenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yassir Challenge.debug.xcconfig"; path = "Target Support Files/Pods-Yassir Challenge/Pods-Yassir Challenge.debug.xcconfig"; sourceTree = "<group>"; };
@@ -99,7 +77,6 @@
 		CE0FBBFD27ACAABF003BE3C6 /* ShowMovieWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowMovieWorker.swift; sourceTree = "<group>"; };
 		CE0FBBFF27AD4938003BE3C6 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 		CE0FBC0227ADDADD003BE3C6 /* UIColor+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
-		CE0FBC0827ADFC7C003BE3C6 /* Yassir ChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Yassir ChallengeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE32AA7127AE5E6A00E3BB16 /* Pods_Yassir_Challenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_Yassir_Challenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F84EB5D7A31D8376A8AA3940 /* Pods-Yassir Challenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yassir Challenge.release.xcconfig"; path = "Target Support Files/Pods-Yassir Challenge/Pods-Yassir Challenge.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -110,13 +87,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				97709D93457919AA39B0A0A3 /* Pods_Yassir_Challenge.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CE0FBC0527ADFC7C003BE3C6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,7 +125,6 @@
 			isa = PBXGroup;
 			children = (
 				CE0FBB9F27AC32F3003BE3C6 /* Yassir Challenge.app */,
-				CE0FBC0827ADFC7C003BE3C6 /* Yassir ChallengeTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -397,25 +366,6 @@
 			productReference = CE0FBB9F27AC32F3003BE3C6 /* Yassir Challenge.app */;
 			productType = "com.apple.product-type.application";
 		};
-		CE0FBC0727ADFC7C003BE3C6 /* Yassir ChallengeTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CE0FBC0E27ADFC7C003BE3C6 /* Build configuration list for PBXNativeTarget "Yassir ChallengeTests" */;
-			buildPhases = (
-				CE0FBC0427ADFC7C003BE3C6 /* Sources */,
-				CE0FBC0527ADFC7C003BE3C6 /* Frameworks */,
-				CE0FBC0627ADFC7C003BE3C6 /* Resources */,
-				CE32AA6E27AE5E1D00E3BB16 /* CopyFiles */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CE0FBC0D27ADFC7C003BE3C6 /* PBXTargetDependency */,
-			);
-			name = "Yassir ChallengeTests";
-			productName = "Yassir ChallengeTests";
-			productReference = CE0FBC0827ADFC7C003BE3C6 /* Yassir ChallengeTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -428,10 +378,6 @@
 				TargetAttributes = {
 					CE0FBB9E27AC32F3003BE3C6 = {
 						CreatedOnToolsVersion = 13.0;
-					};
-					CE0FBC0727ADFC7C003BE3C6 = {
-						CreatedOnToolsVersion = 13.0;
-						TestTargetID = CE0FBB9E27AC32F3003BE3C6;
 					};
 				};
 			};
@@ -449,7 +395,6 @@
 			projectRoot = "";
 			targets = (
 				CE0FBB9E27AC32F3003BE3C6 /* Yassir Challenge */,
-				CE0FBC0727ADFC7C003BE3C6 /* Yassir ChallengeTests */,
 			);
 		};
 /* End PBXProject section */
@@ -462,13 +407,6 @@
 				CE0FBBAF27AC32F5003BE3C6 /* LaunchScreen.storyboard in Resources */,
 				CE0FBBAC27AC32F5003BE3C6 /* Assets.xcassets in Resources */,
 				CE0FBBAA27AC32F3003BE3C6 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CE0FBC0627ADFC7C003BE3C6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -552,22 +490,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CE0FBC0427ADFC7C003BE3C6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		CE0FBC0D27ADFC7C003BE3C6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CE0FBB9E27AC32F3003BE3C6 /* Yassir Challenge */;
-			targetProxy = CE0FBC0C27ADFC7C003BE3C6 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		CE0FBBA827AC32F3003BE3C6 /* Main.storyboard */ = {
@@ -763,52 +686,6 @@
 			};
 			name = Release;
 		};
-		CE0FBC0F27ADFC7C003BE3C6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 65QWFBS3MN;
-				GENERATE_INFOPLIST_FILE = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.austinjuwon.yassir.Yassir-ChallengeTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yassir Challenge.app/Yassir Challenge";
-			};
-			name = Debug;
-		};
-		CE0FBC1027ADFC7C003BE3C6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 65QWFBS3MN;
-				GENERATE_INFOPLIST_FILE = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.austinjuwon.yassir.Yassir-ChallengeTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yassir Challenge.app/Yassir Challenge";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -826,15 +703,6 @@
 			buildConfigurations = (
 				CE0FBBB427AC32F5003BE3C6 /* Debug */,
 				CE0FBBB527AC32F5003BE3C6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CE0FBC0E27ADFC7C003BE3C6 /* Build configuration list for PBXNativeTarget "Yassir ChallengeTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CE0FBC0F27ADFC7C003BE3C6 /* Debug */,
-				CE0FBC1027ADFC7C003BE3C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
