@@ -70,10 +70,10 @@ class ShowMovieViewController: UIViewController, ShowMovieDisplayLogic {
     }()
     let movieTitle: UILabel = {
         let label = UILabel()
-        label.font = UIFont.systemFont(ofSize: 18)
+        label.font = UIFont.systemFont(ofSize: 17)
         label.translatesAutoresizingMaskIntoConstraints = false
         label.textAlignment = .left
-        label.numberOfLines = 1
+        label.numberOfLines = 0
         label.textColor = .white
         return label
     }()
