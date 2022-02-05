@@ -7,27 +7,113 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		97709D93457919AA39B0A0A3 /* Pods_Yassir_Challenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22A6269D95D3800698BA99DA /* Pods_Yassir_Challenge.framework */; };
 		CE0FBBA327AC32F3003BE3C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0FBBA227AC32F3003BE3C6 /* AppDelegate.swift */; };
 		CE0FBBA527AC32F3003BE3C6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0FBBA427AC32F3003BE3C6 /* SceneDelegate.swift */; };
-		CE0FBBA727AC32F3003BE3C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0FBBA627AC32F3003BE3C6 /* ViewController.swift */; };
 		CE0FBBAA27AC32F3003BE3C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE0FBBA827AC32F3003BE3C6 /* Main.storyboard */; };
 		CE0FBBAC27AC32F5003BE3C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE0FBBAB27AC32F5003BE3C6 /* Assets.xcassets */; };
 		CE0FBBAF27AC32F5003BE3C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE0FBBAD27AC32F5003BE3C6 /* LaunchScreen.storyboard */; };
+		CE0FBBBD27AC3F29003BE3C6 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0FBBBC27AC3F28003BE3C6 /* Movie.swift */; };
+		CE0FBBBF27AC412C003BE3C6 /* MoviesPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0FBBBE27AC412C003BE3C6 /* MoviesPage.swift */; };
+		CE0FBBC127AC69F8003BE3C6 /* MovieDetials.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0FBBC027AC69F8003BE3C6 /* MovieDetials.swift */; };
+		CE0FBBC327AC6E48003BE3C6 /* Genre.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0FBBC227AC6E48003BE3C6 /* Genre.swift */; };
+		CE0FBBC527AC6E80003BE3C6 /* ProductionCompany.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0FBBC427AC6E80003BE3C6 /* ProductionCompany.swift */; };
+		CE0FBBC727AC6EA3003BE3C6 /* ProductionCountry.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0FBBC627AC6EA3003BE3C6 /* ProductionCountry.swift */; };
+		CE0FBBC927AC6ECD003BE3C6 /* SpokenLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0FBBC827AC6ECD003BE3C6 /* SpokenLanguage.swift */; };
+		CE0FBBCC27AC6FF5003BE3C6 /* MoviesPageInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0FBBCB27AC6FF5003BE3C6 /* MoviesPageInterface.swift */; };
+		CE0FBBCE27AC720D003BE3C6 /* MovieDetailsInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0FBBCD27AC720D003BE3C6 /* MovieDetailsInterface.swift */; };
+		CE0FBBD027AC7314003BE3C6 /* MoviesPageAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0FBBCF27AC7314003BE3C6 /* MoviesPageAPI.swift */; };
+		CE0FBBD227AC7359003BE3C6 /* WorkerConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0FBBD127AC7359003BE3C6 /* WorkerConstants.swift */; };
+		CE0FBBD427AC7E21003BE3C6 /* MovieDetailsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0FBBD327AC7E21003BE3C6 /* MovieDetailsAPI.swift */; };
+		CE0FBBDE27AC804F003BE3C6 /* ListMoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0FBBDD27AC804F003BE3C6 /* ListMoviesViewController.swift */; };
+		CE0FBBE027AC80AE003BE3C6 /* ListMovies.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0FBBDF27AC80AE003BE3C6 /* ListMovies.swift */; };
+		CE0FBBE227AC82C3003BE3C6 /* ListMoviesWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0FBBE127AC82C3003BE3C6 /* ListMoviesWorker.swift */; };
+		CE0FBBE427AC8585003BE3C6 /* ListMoviesInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0FBBE327AC8585003BE3C6 /* ListMoviesInteractor.swift */; };
+		CE0FBBE627AC864E003BE3C6 /* ListMoviesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0FBBE527AC864E003BE3C6 /* ListMoviesPresenter.swift */; };
+		CE0FBBE827AC94A9003BE3C6 /* ListMoviesRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0FBBE727AC94A9003BE3C6 /* ListMoviesRouter.swift */; };
+		CE0FBBEB27AC99C2003BE3C6 /* ShowMovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0FBBEA27AC99C2003BE3C6 /* ShowMovieViewController.swift */; };
+		CE0FBBF527AC9B0A003BE3C6 /* ShowMovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0FBBF427AC9B0A003BE3C6 /* ShowMovie.swift */; };
+		CE0FBBF727AC9CF9003BE3C6 /* ShowMoviePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0FBBF627AC9CF9003BE3C6 /* ShowMoviePresenter.swift */; };
+		CE0FBBF927ACA932003BE3C6 /* ShowMovieRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0FBBF827ACA932003BE3C6 /* ShowMovieRouter.swift */; };
+		CE0FBBFB27ACA9A9003BE3C6 /* ShowInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0FBBFA27ACA9A9003BE3C6 /* ShowInteractor.swift */; };
+		CE0FBBFE27ACAABF003BE3C6 /* ShowMovieWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0FBBFD27ACAABF003BE3C6 /* ShowMovieWorker.swift */; };
+		CE0FBC0027AD4938003BE3C6 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0FBBFF27AD4938003BE3C6 /* MovieCell.swift */; };
+		CE0FBC0327ADDADD003BE3C6 /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0FBC0227ADDADD003BE3C6 /* UIColor+Ext.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		CE0FBC0C27ADFC7C003BE3C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE0FBB9727AC32F3003BE3C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE0FBB9E27AC32F3003BE3C6;
+			remoteInfo = "Yassir Challenge";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CE32AA6E27AE5E1D00E3BB16 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		22A6269D95D3800698BA99DA /* Pods_Yassir_Challenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Yassir_Challenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C16D9F032D56FF59A63ED45E /* Pods-Yassir Challenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yassir Challenge.debug.xcconfig"; path = "Target Support Files/Pods-Yassir Challenge/Pods-Yassir Challenge.debug.xcconfig"; sourceTree = "<group>"; };
 		CE0FBB9F27AC32F3003BE3C6 /* Yassir Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Yassir Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE0FBBA227AC32F3003BE3C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE0FBBA427AC32F3003BE3C6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CE0FBBA627AC32F3003BE3C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CE0FBBA927AC32F3003BE3C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE0FBBAB27AC32F5003BE3C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE0FBBAE27AC32F5003BE3C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE0FBBB027AC32F5003BE3C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE0FBBBC27AC3F28003BE3C6 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		CE0FBBBE27AC412C003BE3C6 /* MoviesPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesPage.swift; sourceTree = "<group>"; };
+		CE0FBBC027AC69F8003BE3C6 /* MovieDetials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetials.swift; sourceTree = "<group>"; };
+		CE0FBBC227AC6E48003BE3C6 /* Genre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Genre.swift; sourceTree = "<group>"; };
+		CE0FBBC427AC6E80003BE3C6 /* ProductionCompany.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductionCompany.swift; sourceTree = "<group>"; };
+		CE0FBBC627AC6EA3003BE3C6 /* ProductionCountry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductionCountry.swift; sourceTree = "<group>"; };
+		CE0FBBC827AC6ECD003BE3C6 /* SpokenLanguage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpokenLanguage.swift; sourceTree = "<group>"; };
+		CE0FBBCB27AC6FF5003BE3C6 /* MoviesPageInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesPageInterface.swift; sourceTree = "<group>"; };
+		CE0FBBCD27AC720D003BE3C6 /* MovieDetailsInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsInterface.swift; sourceTree = "<group>"; };
+		CE0FBBCF27AC7314003BE3C6 /* MoviesPageAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesPageAPI.swift; sourceTree = "<group>"; };
+		CE0FBBD127AC7359003BE3C6 /* WorkerConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkerConstants.swift; sourceTree = "<group>"; };
+		CE0FBBD327AC7E21003BE3C6 /* MovieDetailsAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsAPI.swift; sourceTree = "<group>"; };
+		CE0FBBDD27AC804F003BE3C6 /* ListMoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListMoviesViewController.swift; sourceTree = "<group>"; };
+		CE0FBBDF27AC80AE003BE3C6 /* ListMovies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListMovies.swift; sourceTree = "<group>"; };
+		CE0FBBE127AC82C3003BE3C6 /* ListMoviesWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListMoviesWorker.swift; sourceTree = "<group>"; };
+		CE0FBBE327AC8585003BE3C6 /* ListMoviesInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListMoviesInteractor.swift; sourceTree = "<group>"; };
+		CE0FBBE527AC864E003BE3C6 /* ListMoviesPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListMoviesPresenter.swift; sourceTree = "<group>"; };
+		CE0FBBE727AC94A9003BE3C6 /* ListMoviesRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListMoviesRouter.swift; sourceTree = "<group>"; };
+		CE0FBBEA27AC99C2003BE3C6 /* ShowMovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowMovieViewController.swift; sourceTree = "<group>"; };
+		CE0FBBF427AC9B0A003BE3C6 /* ShowMovie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowMovie.swift; sourceTree = "<group>"; };
+		CE0FBBF627AC9CF9003BE3C6 /* ShowMoviePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowMoviePresenter.swift; sourceTree = "<group>"; };
+		CE0FBBF827ACA932003BE3C6 /* ShowMovieRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowMovieRouter.swift; sourceTree = "<group>"; };
+		CE0FBBFA27ACA9A9003BE3C6 /* ShowInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowInteractor.swift; sourceTree = "<group>"; };
+		CE0FBBFD27ACAABF003BE3C6 /* ShowMovieWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowMovieWorker.swift; sourceTree = "<group>"; };
+		CE0FBBFF27AD4938003BE3C6 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		CE0FBC0227ADDADD003BE3C6 /* UIColor+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
+		CE0FBC0827ADFC7C003BE3C6 /* Yassir ChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Yassir ChallengeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE32AA7127AE5E6A00E3BB16 /* Pods_Yassir_Challenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_Yassir_Challenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F84EB5D7A31D8376A8AA3940 /* Pods-Yassir Challenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yassir Challenge.release.xcconfig"; path = "Target Support Files/Pods-Yassir Challenge/Pods-Yassir Challenge.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		CE0FBB9C27AC32F3003BE3C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97709D93457919AA39B0A0A3 /* Pods_Yassir_Challenge.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE0FBC0527ADFC7C003BE3C6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,11 +123,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		42723F0D1D0E2F4E70495B4A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C16D9F032D56FF59A63ED45E /* Pods-Yassir Challenge.debug.xcconfig */,
+				F84EB5D7A31D8376A8AA3940 /* Pods-Yassir Challenge.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		44265BFD7EB6DA203B509E6F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE32AA7127AE5E6A00E3BB16 /* Pods_Yassir_Challenge.framework */,
+				22A6269D95D3800698BA99DA /* Pods_Yassir_Challenge.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CE0FBB9627AC32F3003BE3C6 = {
 			isa = PBXGroup;
 			children = (
 				CE0FBBA127AC32F3003BE3C6 /* Yassir Challenge */,
 				CE0FBBA027AC32F3003BE3C6 /* Products */,
+				42723F0D1D0E2F4E70495B4A /* Pods */,
+				44265BFD7EB6DA203B509E6F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -49,6 +155,7 @@
 			isa = PBXGroup;
 			children = (
 				CE0FBB9F27AC32F3003BE3C6 /* Yassir Challenge.app */,
+				CE0FBC0827ADFC7C003BE3C6 /* Yassir ChallengeTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,15 +163,216 @@
 		CE0FBBA127AC32F3003BE3C6 /* Yassir Challenge */ = {
 			isa = PBXGroup;
 			children = (
-				CE0FBBA227AC32F3003BE3C6 /* AppDelegate.swift */,
-				CE0FBBA427AC32F3003BE3C6 /* SceneDelegate.swift */,
-				CE0FBBA627AC32F3003BE3C6 /* ViewController.swift */,
-				CE0FBBA827AC32F3003BE3C6 /* Main.storyboard */,
-				CE0FBBAB27AC32F5003BE3C6 /* Assets.xcassets */,
-				CE0FBBAD27AC32F5003BE3C6 /* LaunchScreen.storyboard */,
-				CE0FBBB027AC32F5003BE3C6 /* Info.plist */,
+				CE0FBC0127ADDAC5003BE3C6 /* Support */,
+				CE0FBBBB27AC3E71003BE3C6 /* Resources */,
+				CE0FBBBA27AC3E53003BE3C6 /* App Configuration */,
+				CE0FBBB927AC3E4B003BE3C6 /* Models */,
+				CE0FBBB827AC3E43003BE3C6 /* Services */,
+				CE0FBBB727AC3E3A003BE3C6 /* Workers */,
+				CE0FBBB627AC3E30003BE3C6 /* Scenes */,
 			);
 			path = "Yassir Challenge";
+			sourceTree = "<group>";
+		};
+		CE0FBBB627AC3E30003BE3C6 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				CE0FBBD627AC7FAE003BE3C6 /* ShowMovie */,
+				CE0FBBD527AC7FA5003BE3C6 /* ListMovies */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		CE0FBBB727AC3E3A003BE3C6 /* Workers */ = {
+			isa = PBXGroup;
+			children = (
+				CE0FBBCF27AC7314003BE3C6 /* MoviesPageAPI.swift */,
+				CE0FBBD127AC7359003BE3C6 /* WorkerConstants.swift */,
+				CE0FBBD327AC7E21003BE3C6 /* MovieDetailsAPI.swift */,
+			);
+			path = Workers;
+			sourceTree = "<group>";
+		};
+		CE0FBBB827AC3E43003BE3C6 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		CE0FBBB927AC3E4B003BE3C6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CE0FBBCA27AC6FE0003BE3C6 /* Interface */,
+				CE0FBBBC27AC3F28003BE3C6 /* Movie.swift */,
+				CE0FBBBE27AC412C003BE3C6 /* MoviesPage.swift */,
+				CE0FBBC027AC69F8003BE3C6 /* MovieDetials.swift */,
+				CE0FBBC227AC6E48003BE3C6 /* Genre.swift */,
+				CE0FBBC427AC6E80003BE3C6 /* ProductionCompany.swift */,
+				CE0FBBC627AC6EA3003BE3C6 /* ProductionCountry.swift */,
+				CE0FBBC827AC6ECD003BE3C6 /* SpokenLanguage.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CE0FBBBA27AC3E53003BE3C6 /* App Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				CE0FBBA227AC32F3003BE3C6 /* AppDelegate.swift */,
+				CE0FBBA427AC32F3003BE3C6 /* SceneDelegate.swift */,
+			);
+			path = "App Configuration";
+			sourceTree = "<group>";
+		};
+		CE0FBBBB27AC3E71003BE3C6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CE0FBBA827AC32F3003BE3C6 /* Main.storyboard */,
+				CE0FBBAD27AC32F5003BE3C6 /* LaunchScreen.storyboard */,
+				CE0FBBAB27AC32F5003BE3C6 /* Assets.xcassets */,
+				CE0FBBB027AC32F5003BE3C6 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CE0FBBCA27AC6FE0003BE3C6 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				CE0FBBCB27AC6FF5003BE3C6 /* MoviesPageInterface.swift */,
+				CE0FBBCD27AC720D003BE3C6 /* MovieDetailsInterface.swift */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		CE0FBBD527AC7FA5003BE3C6 /* ListMovies */ = {
+			isa = PBXGroup;
+			children = (
+				CE0FBBDC27AC800C003BE3C6 /* Interactor */,
+				CE0FBBDB27AC7FFC003BE3C6 /* View */,
+				CE0FBBDA27AC7FF2003BE3C6 /* Worker */,
+				CE0FBBD927AC7FEC003BE3C6 /* Model */,
+				CE0FBBD827AC7FE5003BE3C6 /* Presenter */,
+				CE0FBBD727AC7FDF003BE3C6 /* Router */,
+			);
+			path = ListMovies;
+			sourceTree = "<group>";
+		};
+		CE0FBBD627AC7FAE003BE3C6 /* ShowMovie */ = {
+			isa = PBXGroup;
+			children = (
+				CE0FBBFC27ACAA9D003BE3C6 /* Worker */,
+				CE0FBBF327AC9AF8003BE3C6 /* Model */,
+				CE0FBBEF27AC9A6B003BE3C6 /* Presenter */,
+				CE0FBBEE27AC9A63003BE3C6 /* Interactor */,
+				CE0FBBEC27AC9A54003BE3C6 /* Router */,
+				CE0FBBE927AC99B0003BE3C6 /* View */,
+			);
+			path = ShowMovie;
+			sourceTree = "<group>";
+		};
+		CE0FBBD727AC7FDF003BE3C6 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				CE0FBBE727AC94A9003BE3C6 /* ListMoviesRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		CE0FBBD827AC7FE5003BE3C6 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				CE0FBBE527AC864E003BE3C6 /* ListMoviesPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		CE0FBBD927AC7FEC003BE3C6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CE0FBBDF27AC80AE003BE3C6 /* ListMovies.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CE0FBBDA27AC7FF2003BE3C6 /* Worker */ = {
+			isa = PBXGroup;
+			children = (
+				CE0FBBE127AC82C3003BE3C6 /* ListMoviesWorker.swift */,
+			);
+			path = Worker;
+			sourceTree = "<group>";
+		};
+		CE0FBBDB27AC7FFC003BE3C6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE0FBBDD27AC804F003BE3C6 /* ListMoviesViewController.swift */,
+				CE0FBBFF27AD4938003BE3C6 /* MovieCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CE0FBBDC27AC800C003BE3C6 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				CE0FBBE327AC8585003BE3C6 /* ListMoviesInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		CE0FBBE927AC99B0003BE3C6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE0FBBEA27AC99C2003BE3C6 /* ShowMovieViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CE0FBBEC27AC9A54003BE3C6 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				CE0FBBF827ACA932003BE3C6 /* ShowMovieRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		CE0FBBEE27AC9A63003BE3C6 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				CE0FBBFA27ACA9A9003BE3C6 /* ShowInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		CE0FBBEF27AC9A6B003BE3C6 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				CE0FBBF627AC9CF9003BE3C6 /* ShowMoviePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		CE0FBBF327AC9AF8003BE3C6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CE0FBBF427AC9B0A003BE3C6 /* ShowMovie.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CE0FBBFC27ACAA9D003BE3C6 /* Worker */ = {
+			isa = PBXGroup;
+			children = (
+				CE0FBBFD27ACAABF003BE3C6 /* ShowMovieWorker.swift */,
+			);
+			path = Worker;
+			sourceTree = "<group>";
+		};
+		CE0FBC0127ADDAC5003BE3C6 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				CE0FBC0227ADDADD003BE3C6 /* UIColor+Ext.swift */,
+			);
+			path = Support;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +382,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE0FBBB327AC32F5003BE3C6 /* Build configuration list for PBXNativeTarget "Yassir Challenge" */;
 			buildPhases = (
+				72C2BF601293392683852418 /* [CP] Check Pods Manifest.lock */,
 				CE0FBB9B27AC32F3003BE3C6 /* Sources */,
 				CE0FBB9C27AC32F3003BE3C6 /* Frameworks */,
 				CE0FBB9D27AC32F3003BE3C6 /* Resources */,
+				C340368853ABDC2538537CF4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -86,6 +396,25 @@
 			productName = "Yassir Challenge";
 			productReference = CE0FBB9F27AC32F3003BE3C6 /* Yassir Challenge.app */;
 			productType = "com.apple.product-type.application";
+		};
+		CE0FBC0727ADFC7C003BE3C6 /* Yassir ChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE0FBC0E27ADFC7C003BE3C6 /* Build configuration list for PBXNativeTarget "Yassir ChallengeTests" */;
+			buildPhases = (
+				CE0FBC0427ADFC7C003BE3C6 /* Sources */,
+				CE0FBC0527ADFC7C003BE3C6 /* Frameworks */,
+				CE0FBC0627ADFC7C003BE3C6 /* Resources */,
+				CE32AA6E27AE5E1D00E3BB16 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE0FBC0D27ADFC7C003BE3C6 /* PBXTargetDependency */,
+			);
+			name = "Yassir ChallengeTests";
+			productName = "Yassir ChallengeTests";
+			productReference = CE0FBC0827ADFC7C003BE3C6 /* Yassir ChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -99,6 +428,10 @@
 				TargetAttributes = {
 					CE0FBB9E27AC32F3003BE3C6 = {
 						CreatedOnToolsVersion = 13.0;
+					};
+					CE0FBC0727ADFC7C003BE3C6 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = CE0FBB9E27AC32F3003BE3C6;
 					};
 				};
 			};
@@ -116,6 +449,7 @@
 			projectRoot = "";
 			targets = (
 				CE0FBB9E27AC32F3003BE3C6 /* Yassir Challenge */,
+				CE0FBC0727ADFC7C003BE3C6 /* Yassir ChallengeTests */,
 			);
 		};
 /* End PBXProject section */
@@ -131,20 +465,109 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CE0FBC0627ADFC7C003BE3C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		72C2BF601293392683852418 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Yassir Challenge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C340368853ABDC2538537CF4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Yassir Challenge/Pods-Yassir Challenge-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Yassir Challenge/Pods-Yassir Challenge-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Yassir Challenge/Pods-Yassir Challenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CE0FBB9B27AC32F3003BE3C6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE0FBBA727AC32F3003BE3C6 /* ViewController.swift in Sources */,
+				CE0FBBEB27AC99C2003BE3C6 /* ShowMovieViewController.swift in Sources */,
+				CE0FBBE027AC80AE003BE3C6 /* ListMovies.swift in Sources */,
+				CE0FBC0027AD4938003BE3C6 /* MovieCell.swift in Sources */,
+				CE0FBBCC27AC6FF5003BE3C6 /* MoviesPageInterface.swift in Sources */,
+				CE0FBBF527AC9B0A003BE3C6 /* ShowMovie.swift in Sources */,
+				CE0FBBDE27AC804F003BE3C6 /* ListMoviesViewController.swift in Sources */,
+				CE0FBBC527AC6E80003BE3C6 /* ProductionCompany.swift in Sources */,
+				CE0FBBE227AC82C3003BE3C6 /* ListMoviesWorker.swift in Sources */,
+				CE0FBBF727AC9CF9003BE3C6 /* ShowMoviePresenter.swift in Sources */,
+				CE0FBBC727AC6EA3003BE3C6 /* ProductionCountry.swift in Sources */,
+				CE0FBBBF27AC412C003BE3C6 /* MoviesPage.swift in Sources */,
+				CE0FBBD027AC7314003BE3C6 /* MoviesPageAPI.swift in Sources */,
+				CE0FBBCE27AC720D003BE3C6 /* MovieDetailsInterface.swift in Sources */,
+				CE0FBBD427AC7E21003BE3C6 /* MovieDetailsAPI.swift in Sources */,
 				CE0FBBA327AC32F3003BE3C6 /* AppDelegate.swift in Sources */,
+				CE0FBBBD27AC3F29003BE3C6 /* Movie.swift in Sources */,
 				CE0FBBA527AC32F3003BE3C6 /* SceneDelegate.swift in Sources */,
+				CE0FBBE827AC94A9003BE3C6 /* ListMoviesRouter.swift in Sources */,
+				CE0FBBE427AC8585003BE3C6 /* ListMoviesInteractor.swift in Sources */,
+				CE0FBBF927ACA932003BE3C6 /* ShowMovieRouter.swift in Sources */,
+				CE0FBBC927AC6ECD003BE3C6 /* SpokenLanguage.swift in Sources */,
+				CE0FBC0327ADDADD003BE3C6 /* UIColor+Ext.swift in Sources */,
+				CE0FBBD227AC7359003BE3C6 /* WorkerConstants.swift in Sources */,
+				CE0FBBFE27ACAABF003BE3C6 /* ShowMovieWorker.swift in Sources */,
+				CE0FBBFB27ACA9A9003BE3C6 /* ShowInteractor.swift in Sources */,
+				CE0FBBC127AC69F8003BE3C6 /* MovieDetials.swift in Sources */,
+				CE0FBBC327AC6E48003BE3C6 /* Genre.swift in Sources */,
+				CE0FBBE627AC864E003BE3C6 /* ListMoviesPresenter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE0FBC0427ADFC7C003BE3C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE0FBC0D27ADFC7C003BE3C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE0FBB9E27AC32F3003BE3C6 /* Yassir Challenge */;
+			targetProxy = CE0FBC0C27ADFC7C003BE3C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		CE0FBBA827AC32F3003BE3C6 /* Main.storyboard */ = {
@@ -284,6 +707,7 @@
 		};
 		CE0FBBB427AC32F5003BE3C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C16D9F032D56FF59A63ED45E /* Pods-Yassir Challenge.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -291,7 +715,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 65QWFBS3MN;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Yassir Challenge/Info.plist";
+				INFOPLIST_FILE = "Yassir Challenge/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -312,6 +736,7 @@
 		};
 		CE0FBBB527AC32F5003BE3C6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F84EB5D7A31D8376A8AA3940 /* Pods-Yassir Challenge.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -319,7 +744,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 65QWFBS3MN;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Yassir Challenge/Info.plist";
+				INFOPLIST_FILE = "Yassir Challenge/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -335,6 +760,52 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CE0FBC0F27ADFC7C003BE3C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 65QWFBS3MN;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.austinjuwon.yassir.Yassir-ChallengeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yassir Challenge.app/Yassir Challenge";
+			};
+			name = Debug;
+		};
+		CE0FBC1027ADFC7C003BE3C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 65QWFBS3MN;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.austinjuwon.yassir.Yassir-ChallengeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yassir Challenge.app/Yassir Challenge";
 			};
 			name = Release;
 		};
@@ -355,6 +826,15 @@
 			buildConfigurations = (
 				CE0FBBB427AC32F5003BE3C6 /* Debug */,
 				CE0FBBB527AC32F5003BE3C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE0FBC0E27ADFC7C003BE3C6 /* Build configuration list for PBXNativeTarget "Yassir ChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE0FBC0F27ADFC7C003BE3C6 /* Debug */,
+				CE0FBC1027ADFC7C003BE3C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

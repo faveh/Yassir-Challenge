@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="INd-0j-UlF">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Movie Box-->
+        <scene sceneID="BhG-lk-vRr">
+            <objects>
+                <collectionViewController storyboardIdentifier="ListMoviesViewController" id="2Zg-8m-0XV" customClass="ListMoviesViewController" customModule="Yassir_Challenge" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" title="Movie Box" largeTitleDisplayMode="never" id="eoS-iM-PRm"/>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JwZ-rV-xmo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="621.73913043478262" y="49.553571428571423"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="pCX-Ra-D49">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="INd-0j-UlF" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="aaw-mG-Bmg">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="2Zg-8m-0XV" kind="relationship" relationship="rootViewController" id="Kem-P0-6ij"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4ts-Kx-eap" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-657" y="50"/>
+        </scene>
+    </scenes>
+</document>
