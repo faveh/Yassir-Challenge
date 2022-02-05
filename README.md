@@ -9,6 +9,7 @@ Yassir Coding Challenge
 - Navigation to the directory and click to run the file "Yassir Challenge.xcworkspace", this will open up the solution on Xcode
 - Click on the Yassir Challenge scheme and select an iOS Simulator
 - Finally, click on the play button at the top-left part of Xcode. This will run the code and your simulator will come up.
+- Also Note: The Scroll on the movies page is an infinite scroll, that is, when you get to the bottom of the list and you drag up, more movies will be loaded.
 
 
 Thank you.
